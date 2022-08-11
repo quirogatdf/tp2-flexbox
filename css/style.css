@@ -1,0 +1,89 @@
+#encabezado {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+#menu1{
+    background-color: green;
+    height: 30px;
+    width: 40%;
+    margin-left: 60%;
+    
+    
+    margin-bottom: 0.7rem;
+    order: 1;
+
+}
+#menu2{
+    background-color: brown;
+    width: 60%;
+    height: 30px;
+    margin-left: 10%;
+    margin-right: 0%;
+    order:3;
+}
+#logo{
+    background-color: blue;
+    width: 20%;
+    height: 30px;
+    order: 2;
+    
+}
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#izquierda {
+    background-color: grey;
+    width: 30%;
+    height: 200px;
+    order: 1;
+}
+#centro {
+    background-color: aqua;
+    order: 2;
+    width: 30%;
+    height: 200px;
+
+}
+
+#derecha {
+    background-color: orange;
+    order: 3;
+    width: 30%;
+    height: 200px;
+
+}
+#izquierda2{
+    background-color: forestgreen;
+    width: 65%;
+    height: 200px;
+    order:4;
+    margin-top: 10px;
+}
+#derecha2{
+    background-color: brown;
+    width: 30%;
+    height: 200px;
+    order:4;
+    margin-top: 10px;
+}
+#pie{
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: lightblue;
+    display: flex;
+    height: 60px;
+    margin-top: 10px;
+    padding: 20px;
+}
+#elemento{
+    background-color: blue;
+    width:150px;
+    height: 30px;
+
+}
